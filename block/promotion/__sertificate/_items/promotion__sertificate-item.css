@@ -1,0 +1,10 @@
+.promotion__sertificate-item {
+  max-width: 4.69vw;
+  width: 100%;
+  margin-right: 10px;
+  border: 2px solid #4e4e4e;
+}
+
+.promotion__sertificate-item:nth-of-type(3) {
+  margin-right: 0;
+}

@@ -1,0 +1,16 @@
+.yandex-map__popup {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+}

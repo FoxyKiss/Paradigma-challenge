@@ -1,0 +1,6 @@
+.promotion__payment {
+  max-width: 21.88vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

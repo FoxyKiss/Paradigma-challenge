@@ -1,0 +1,11 @@
+.header__language_select_button {
+  background: none;
+  border: none;
+  list-style: none;
+  cursor: pointer;
+  padding: 0 10px 0 0;
+}
+
+.header__language_select_button:nth-of-type(2) {
+  padding: 0
+}

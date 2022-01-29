@@ -1,0 +1,56 @@
+.promotion__payment-button {
+  max-width: 21.88vw;
+  width: 100%;
+  min-height: 100px;
+  list-style: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #fe7452;
+  background-image: url(../../../../images/calculator.png);
+  background-repeat: no-repeat;
+  background-position: 50px center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s linear;
+}
+
+.promotion__payment-button:hover{
+  box-shadow: 0 0 10px 3px rgb(0 0 0);
+}
+
+.promotion__payment-button:after {
+  content: "";
+  display: block;
+  width: 1.56vw;
+  height: 250px;
+  margin-left: 50px;
+  background: #fff;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0.5) 100%
+  );
+  left: -40px;
+  top: -100px;
+  z-index: 1;
+  transform: rotate(45deg);
+  position: absolute;
+  animation: movingFlare 3s ease-in-out 0.01s infinite;
+}
+
+@keyframes movingFlare {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}

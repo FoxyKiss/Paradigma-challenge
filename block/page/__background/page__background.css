@@ -1,0 +1,13 @@
+.page__background {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(../../../images/rightBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 30px 30px ;
+}

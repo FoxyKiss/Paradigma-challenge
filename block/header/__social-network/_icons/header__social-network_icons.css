@@ -1,0 +1,8 @@
+.header__social-network_icons {
+  max-width: 8.85vw;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}

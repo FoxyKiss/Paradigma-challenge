@@ -1,0 +1,7 @@
+.menu {
+  max-width: 80.73vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}

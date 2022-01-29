@@ -1,0 +1,15 @@
+.header__map-address_button {
+  background: none;
+  border: none;
+  list-style: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fe7452;
+  text-decoration: underline;
+  padding: 3px 3px 0 0;
+  transition: 0.3s;
+}
+
+.header__map-address_button:hover {
+  opacity: 0.8;
+}

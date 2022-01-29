@@ -1,0 +1,11 @@
+.about-us__description_text {
+  position: relative;
+  max-width: 11.98vw;
+  width: 100%;
+  font-size: 20px;
+  margin: 0 50px 0 0;
+}
+
+.about-us__description_text:nth-of-type(3) {
+  margin: 0;
+}

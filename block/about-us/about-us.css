@@ -1,0 +1,7 @@
+.about-us {
+  max-width: 48.96vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}

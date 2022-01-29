@@ -1,0 +1,58 @@
+.header__consult_button {
+  max-width: 13.02vw;
+  width: 100%;
+  min-height: 70px;
+  list-style: none;
+  cursor: pointer;
+  background-color: #313d4b;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s linear;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.header__consult_button:hover{
+  box-shadow: 0 0 10px 3px rgb(0 0 0);
+}
+
+.header__consult_button:after {
+  content: "";
+  display: block;
+  width: 1.56vw;
+  height: 220px;
+  margin-left: 50px;
+  background: #fff;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0.5) 100%
+  );
+  left: -40px;
+  top: -100px;
+  z-index: 1;
+  transform: rotate(45deg);
+  position: absolute;
+  animation: movingFlare 3s ease-in-out 0.05s infinite;
+}
+
+@keyframes movingFlare {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}

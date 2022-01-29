@@ -1,0 +1,9 @@
+.map {
+  max-width: 5.21vw;
+  width: 100%;
+  min-height: 100px;
+  background-image: url(../../images/Слой\ 1145.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}

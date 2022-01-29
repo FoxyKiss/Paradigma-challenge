@@ -1,0 +1,8 @@
+.about-us__description-sticker {
+  position: absolute;
+  top:  -12px;
+  left: -20px;
+  max-width: 1.04vw;
+  width: 100%;
+  min-height: 20px;
+}

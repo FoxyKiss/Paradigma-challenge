@@ -1,0 +1,9 @@
+.promotion__payment-button-text {
+  max-width: 12.50vw;
+  width: 100%;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: start;
+  color: #fff;
+  margin: 0 auto 0 100px;
+}

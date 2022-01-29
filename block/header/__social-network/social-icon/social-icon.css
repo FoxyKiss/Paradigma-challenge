@@ -1,0 +1,43 @@
+.social-icon {
+  max-width: 2.60vw;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform-origin: center;
+  transition: 0.2s linear;
+}
+
+
+.social-icon:hover {
+  transform: scale(1.15);
+}
+
+.social-icon:nth-of-type(3) {
+  margin-right: 0;
+}
+.viber {
+  background-color: #7460f3;
+  background-image: url(../../../../images/viber.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.telegram {
+  background-color: #00a2f2;
+  background-image: url(../../../../images/telegram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.whatsapp {
+  background-color: #25d266;
+  background-image: url(../../../../images/whatsapp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone-icon {
+  max-width: 0.78vw;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 5px;
+}

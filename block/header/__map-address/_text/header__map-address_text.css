@@ -1,0 +1,6 @@
+.header__map-address_text {
+  max-width: 7.29vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

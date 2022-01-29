@@ -1,0 +1,7 @@
+.header__language {
+  max-width: 5.73vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

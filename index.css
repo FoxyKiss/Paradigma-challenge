@@ -1,0 +1,71 @@
+@import url(./fonts/fonts.css);
+@import url(./block/page/page.css);
+@import url(./block/page/__background/page__background.css);
+/* HEADER */
+@import url(./block/header/header.css);
+@import url(./block/header/__logo/header__logo.css);
+@import url(./block/header/__desscription/header__description.css);
+@import url(./block/header/__desscription/_bold/header__description_bold_text.css);
+@import url(./block/header/__language/header__language.css);
+@import url(./block/header/__language/header__language-text.css);
+@import url(./block/header/__language/_select_button/header__language_select_button.css);
+@import url(./block/header/__language/_select_button/select_button-focus.css);
+@import url(./block/header/__map-address/header__map-address.css);
+@import url(./block/header/__map-address/_text/header__map-address_text.css);
+@import url(./block/header/__map-address/_title/header__map-address_title.css);
+@import url(./block/header/__map-address/_subtitle/header__map-address_subtitle.css);
+@import url(./block/header/__consult/_button/header__consult_button.css);
+@import url(./block/header/__social-network/header__social-network.css);
+@import url(./block/header/__social-network/_number/header__social-network_number.css);
+@import url(./block/header/__social-network/_icons/header__social-network_icons.css);
+@import url(./block/header/__social-network/social-icon/social-icon.css);
+@import url(./block/header/__map-address/_button/header__map-address_button.css);
+/* MAP */
+@import url(./block/map/map.css);
+@import url(./block/yandex-map/__popup/yandex-map__popup.css);
+@import url(./block/yandex-map/yandex-map.css);
+@import url(./block/yandex-map/yandex.css);
+@import url(./block/map/map-visible.css);
+@import url(./block/map/map-close-button.css);
+
+
+/* MENU */
+@import url(./block/menu/menu.css);
+@import url(./block/menu/__link/menu__link.css);
+
+
+/* CONTENT */
+@import url(./block/content/content.css);
+
+
+/* ABOUT US */
+@import url(./block/about-us/about-us.css);
+@import url(./block/about-us/__title/about-us__title.css);
+@import url(./block/about-us/__title/_bold_text/about-us__title_bold_text.css);
+@import url(./block/about-us/__description/about-us__description.css);
+@import url(./block/about-us/__description/_left_number/about-us__description_left_number.css);
+@import url(./block/about-us/__description/_left_number/_text/about-us__description_left_number-text.css);
+@import url(./block/about-us/__description/_text/about-us__description_text.css);
+@import url(./block/about-us/__description/_bold_text/about-us__description_bold_text.css);
+@import url(./block/about-us/__description/about-us__description-sticker.css);
+
+/* PROMOTION */
+@import url(./block/promotion/promotion.css);
+@import url(./block/promotion/__payment/promotion__payment.css);
+@import url(./block/promotion/__payment/_text/promotion__payment-text.css);
+@import url(./block/promotion/__payment/_text/promotion__payment_bold_text.css);
+@import url(./block/promotion/__payment/_button/promotion__payment-button.css);
+@import url(./block/promotion/__payment/_button/promotion__payment-button-text.css);
+@import url(./block/promotion/__sertificate/promotion__sertificate.css);
+@import url(./block/promotion/__sertificate/_title/promotion__sertificate-title.css);
+@import url(./block/promotion/__sertificate/_items/promotion__sertificate-items.css);
+@import url(./block/promotion/__sertificate/_items/promotion__sertificate-item.css);
+@import url(./block/promotion/__sertificate/_image/sertificate-image.css);
+
+
+/* Popup */
+@import url(./block/popup/popup-images.css);
+@import url(./block/popup/_opened/popup-opened.css);
+@import url(./block/popup/__close/popup__close-button.css);
+@import url(./block/popup/_images/popup_images-container.css);
+@import url(./block/popup/_images/popup_images-properties.css);

@@ -1,0 +1,16 @@
+.map-close-button {
+  position: absolute;
+  top: -40px;
+  right: -20px;
+  max-width: 1.56vw;
+  width: 100%;
+  min-height: 30px;
+  background-image: url(../../images/close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  list-style: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
